@@ -2,7 +2,7 @@
 import logging
 from apscheduler.schedulers.blocking import BlockingScheduler
 from modules.fetch_bhavcopy import fetch_bhavcopy, fetch_first_trading_day
-from modules.process_bhavcopy import process_and_check_alerts
+from modules.parse_bhavcopy import process_and_check_alerts
 from config.settings import EMAIL_SENDER, EMAIL_RECEIVER, EMAIL_PASSWORD
 
 # Configure logging
